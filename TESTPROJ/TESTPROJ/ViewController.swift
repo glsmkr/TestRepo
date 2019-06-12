@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         print("Hi!")
     }
 
+    
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        print("Testing app")
+    }
 
 }
 
